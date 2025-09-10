@@ -8,8 +8,9 @@ To solve the lab, perform a SQL injection attack that logs in to the application
 Log into as the administrator using SQL Injection
 
 ## QUERY:
-'''bash
+'''sql
 SELECT * FROM users WHERE username='administrator'-- AND password='whateverpassword'
 '''
+
 
 In this instance, the payload is administrator'--
